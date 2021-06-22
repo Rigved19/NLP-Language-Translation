@@ -1,4 +1,4 @@
-# Natural Language Processing - Language-Translation
+# Natural Language Processing - Language Translation
 Machine Translation Model which learns to translate English sentences into German Sentences. This is carried out using **seq2seq** Model ie **Encoder-Decoder** model with **LSTM Units**. 
 #### Only ***Python Libraries*** are used to implement entire model for better understanding of the mathematics that goes behind working of Recurrent Neural Networks.
 
