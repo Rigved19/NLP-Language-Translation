@@ -10,7 +10,7 @@ The dataset used can be found [here](http://www.manythings.org/anki/)
 # Technical Aspect
 
 ## The project is divided in 2 parts
-### 1. Data Cleaning and Text Preprcossinhg
+### 1. Data Cleaning and Text Preprcossing
 #### (i) Data Cleaning
  *  Adding additional tokens <sos> and <eos> for the German Sentences
  * Lowercasing
@@ -24,7 +24,7 @@ The dataset used can be found [here](http://www.manythings.org/anki/)
   * Creating 3D Tensors for English Input, German Input and German Output
   
  ### 2. Building Encoder-Decoder Model
-  * Building model using LSTM Units
+ #### * During Training
   * Following are the function being implemented :
     * Parameters Initialization
     * Encoder Forward Propogation
@@ -33,4 +33,10 @@ The dataset used can be found [here](http://www.manythings.org/anki/)
     * Decoder Backward Propogation
     * Encoder Backward Propogation
     * Gradient Descent
+### * During Testing
+  **Same steps as above, notable difference is prdiction for a given day is built on the prediction of all the prev days recursively while making prediction for next day**
+ ### 3. Activation Functions :
+     * Net1 to Net2 - Linear
+     * Hidden Layers - ReLu
+     * Output Layer - Linear
 
