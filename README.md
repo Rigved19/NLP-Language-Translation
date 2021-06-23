@@ -12,7 +12,7 @@ The dataset used can be found [here](http://www.manythings.org/anki/)
 ## The project is divided in 2 parts
 ### 1. Data Cleaning and Text Preprcossing
 #### (i) Data Cleaning
- *  Adding additional tokens <sos> and <eos> for the German Sentences
+ * Adding additional tokens <sos> and <eos> for the German Sentences
  * Lowercasing
  * Removing Punctuations
  * Remove words with numbers
@@ -24,7 +24,6 @@ The dataset used can be found [here](http://www.manythings.org/anki/)
   * Creating 3D Tensors for English Input, German Input and German Output
   
  ### 2. Building Encoder-Decoder Model
- #### * During Training
   * Following are the function being implemented :
     * Parameters Initialization
     * Encoder Forward Propogation
