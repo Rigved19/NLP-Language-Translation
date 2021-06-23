@@ -33,10 +33,6 @@ The dataset used can be found [here](http://www.manythings.org/anki/)
     * Decoder Backward Propogation
     * Encoder Backward Propogation
     * Gradient Descent
-### * During Testing
-  **Same steps as above, notable difference is prdiction for a given day is built on the prediction of all the prev days recursively while making prediction for next day**
- ### 3. Activation Functions :
-     * Net1 to Net2 - Linear
-     * Hidden Layers - ReLu
-     * Output Layer - Linear
+
+  
 
